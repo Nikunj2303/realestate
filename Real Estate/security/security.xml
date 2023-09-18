@@ -1,11 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <odoo>
-    <!-- Define a group for Real Estate Managers -->
+
     <record id="group_real_estate_manager" model="res.groups">
         <field name="name">Real Estate Manager</field>
     </record>
 
-    <!-- Assign view access to Real Estate Managers -->
     <record id="real_estate_property_access" model="ir.rule">
         <field name="name">Real Estate Property Access</field>
         <field name="model_id" ref="model_real_estate_property"/>
