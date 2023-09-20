@@ -1,1 +1,1 @@
-from . import property  # Import the property.py file
+from.import property  # Import the property.py file

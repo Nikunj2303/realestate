@@ -6,7 +6,9 @@ var = {
     'license': 'LGPL-3',
     'sequence': 1,
     'depends': ['base'],
-    'data': ['D:\odoo\customer_addons\Real Estate\security\model.access.csv'],
+    'data': [
+        'security/model.access.csv',
+        'views/property_views.xml', ],
     'auto_install': False,
     'application': True,
     'installable': True,
